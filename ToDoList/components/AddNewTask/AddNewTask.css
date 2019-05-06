@@ -1,0 +1,23 @@
+.NewTask {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
+.Task-buttons {
+  background-color: transparent;
+  margin-top: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  border: none;
+}
+
+#Cancel-button {
+  color: #944317;
+}
+
+#Confirm-button {
+  color: #5C9210;
+}

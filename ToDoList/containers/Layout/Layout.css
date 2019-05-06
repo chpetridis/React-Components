@@ -1,0 +1,26 @@
+.Layout-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.Layout-header h1 {
+  position: relative;
+  bottom: 13px;
+}
+
+.NoTasks-layout {
+  height: 10px;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.Button-layout {
+  display: flex;
+  align-items: flex-end;
+  margin: auto;
+}

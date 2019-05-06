@@ -1,0 +1,27 @@
+.DataList {
+  width: 98%;
+  height: inherit;
+  z-index: 200;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: -330px;
+  margin-left: 40px;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ccc;
+
+	&:hover {
+		background: #bbb;
+	}
+
+}

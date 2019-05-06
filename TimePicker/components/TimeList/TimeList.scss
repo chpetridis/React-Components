@@ -1,0 +1,46 @@
+$list_hover_colour: #89989c;
+$list_text_hover_colour: white;
+$scrollbar_thumb_colour: #ccc;
+$scrollbar_thumb_colour_hover: #bbb;
+
+.Time-list {
+	height: 90px;
+  width: 45px;
+	position: inherit;
+	z-index: 50;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	font-size: 0.75em;
+	padding: 0;
+
+	p {
+    margin: auto;
+    padding: 2px 2px 2.3px 6px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: $list_hover_colour;
+			color: $list_text_hover_colour;
+		}
+	}
+
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background: $scrollbar_thumb_colour;
+  height: 12px;
+
+	&:hover {
+		background: $scrollbar_thumb_colour_hover;
+	}
+
+}

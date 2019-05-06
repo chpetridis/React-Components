@@ -1,0 +1,21 @@
+.TodoItem {
+    width: 40%;
+    margin: 16px auto;
+    border: 5px solid #ddd;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 6px;
+    word-wrap: break-word;
+}
+
+.Delete-button {
+  background-color: #f2f2f2;
+  font: inherit;
+  border: 1px solid black;
+  padding: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.Delete-button:hover {
+  background-color: red;
+}

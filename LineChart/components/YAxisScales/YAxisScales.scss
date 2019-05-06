@@ -1,0 +1,45 @@
+.YAxisScales {
+  height: 94%;
+  width: inherit;
+  display: flex;
+  flex-direction: column-reverse;
+  z-index: 100;
+}
+
+%row-positioning {
+  position: relative;
+  left: 35px;
+  border-bottom: 1px solid #e3e3e3;
+  width: 98%;
+}
+
+%label-positioning {
+  text-align: right;
+  position: relative;
+  top: 10px;
+  left: -32px;
+}
+
+#axis-row {
+  padding-left: 4px;
+  display: flex;
+  flex-shrink: 1;
+  flex-grow: 1;
+  @extend %row-positioning;
+}
+
+#scales-label {
+  width: 5%;
+  padding-right: 5px;
+  align-self: flex-end;
+  @extend %label-positioning;
+}
+
+#max-value {
+  @extend %row-positioning;
+}
+
+#max-value-label {
+  width: 6.5%;
+  @extend %label-positioning;
+}
