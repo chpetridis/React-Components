@@ -2,4 +2,4 @@
 
 (**ToDoList** Project uses **Redux**)
 
-ToDo: Add Calculator component...
+
