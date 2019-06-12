@@ -1,5 +1,8 @@
-## This is some React components created during my Intership.
+## A Collection of React components
 
-(**ToDoList** Project uses **Redux**)
+* ToDoList (with **Redux**)
+* TimePicker
+* LineChart
+
 
 
