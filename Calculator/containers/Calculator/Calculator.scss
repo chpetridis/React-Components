@@ -1,0 +1,21 @@
+.Calculator {
+    width: 250px;
+    height: 350px;
+    align-self: center;
+    display: flex;
+    flex-flow: column;
+    background: #262626;
+}
+
+#result-display {
+    height: 20%;
+    text-align: end;
+    background-color: #404040;
+    font-size: 35px;
+    color: #ff4d4d;
+    padding-right: 5px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 10px;
+}

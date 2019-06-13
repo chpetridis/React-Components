@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-flow: column;
+}
+
+#calculator-header {
+  width: 200px;
+  background-color: #3385ff;
+  border-radius: 15px;
+  align-self: center;
+  text-align: center;
+}
