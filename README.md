@@ -3,6 +3,7 @@
 * ToDoList (with **Redux**)
 * TimePicker
 * LineChart
+* Calculator
 
 
 
